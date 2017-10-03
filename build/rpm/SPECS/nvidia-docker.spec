@@ -8,7 +8,7 @@ Vendor: %{vendor}
 Packager: %{vendor} <%{email}>
 
 Summary: NVIDIA Docker container tools
-URL: https://github.com/NVIDIA/nvidia-docker
+URL: https://github.com/KamranAlipour/nvidia-docker
 License: BSD
 
 Source0: %{name}_%{version}_%{architecture}.tar.xz

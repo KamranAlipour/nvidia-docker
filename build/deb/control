@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: #USERNAME# <#EMAIL#>
 Build-Depends: #BUILD_DEPS#, dh-systemd
 Standards-Version: #POLICY#
-Homepage: https://github.com/NVIDIA/nvidia-docker/wiki
-Vcs-Git: https://github.com/NVIDIA/nvidia-docker
-Vcs-Browser: https://github.com/NVIDIA/nvidia-docker
+Homepage: https://github.com/KamranAlipour/nvidia-docker/wiki
+Vcs-Git: https://github.com/KamranAlipour/nvidia-docker
+Vcs-Browser: https://github.com/KamranAlipour/nvidia-docker
 
 Package: #PACKAGE#
 Architecture: #ARCHITECTURE#

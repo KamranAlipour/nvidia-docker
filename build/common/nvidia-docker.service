@@ -1,6 +1,6 @@
 [Unit]
 Description=NVIDIA Docker plugin
-Documentation=https://github.com/NVIDIA/nvidia-docker/wiki
+Documentation=https://github.com/KamranAlipour/nvidia-docker/wiki
 After=local-fs.target network.target
 Wants=docker.service
 

@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/NVIDIA/nvidia-docker/src/cuda"
-	"github.com/NVIDIA/nvidia-docker/src/nvml"
+	"github.com/KamranAlipour/nvidia-docker/src/cuda"
+	"github.com/KamranAlipour/nvidia-docker/src/nvml"
 )
 
 const (

@@ -4,18 +4,18 @@
 
 # Documentation
 
-The full documentation is available on the [repository wiki](https://github.com/NVIDIA/nvidia-docker/wiki).  
-A good place to start is to understand [why nvidia-docker](https://github.com/NVIDIA/nvidia-docker/wiki/Motivation) is needed in the first place.
+The full documentation is available on the [repository wiki](https://github.com/KamranAlipour/nvidia-docker/wiki).  
+A good place to start is to understand [why nvidia-docker](https://github.com/KamranAlipour/nvidia-docker/wiki/Motivation) is needed in the first place.
 
 
 # Quick start
 
-Assuming the NVIDIA drivers and Docker® Engine are properly installed (see [installation](https://github.com/NVIDIA/nvidia-docker/wiki/Installation))
+Assuming the NVIDIA drivers and Docker® Engine are properly installed (see [installation](https://github.com/KamranAlipour/nvidia-docker/wiki/Installation))
 
 #### _Ubuntu distributions_
 ```sh
 # Install nvidia-docker and nvidia-docker-plugin
-wget -P /tmp https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.1/nvidia-docker_1.0.1-1_amd64.deb
+wget -P /tmp https://github.com/KamranAlipour/nvidia-docker/releases/download/v1.0.1/nvidia-docker_1.0.1-1_amd64.deb
 sudo dpkg -i /tmp/nvidia-docker*.deb && rm /tmp/nvidia-docker*.deb
 
 # Test nvidia-smi
@@ -25,7 +25,7 @@ nvidia-docker run --rm nvidia/cuda nvidia-smi
 #### _CentOS distributions_
 ```sh
 # Install nvidia-docker and nvidia-docker-plugin
-wget -P /tmp https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.1/nvidia-docker-1.0.1-1.x86_64.rpm
+wget -P /tmp https://github.com/KamranAlipour/nvidia-docker/releases/download/v1.0.1/nvidia-docker-1.0.1-1.x86_64.rpm
 sudo rpm -i /tmp/nvidia-docker*.rpm && rm /tmp/nvidia-docker*.rpm
 sudo systemctl start nvidia-docker
 
@@ -36,7 +36,7 @@ nvidia-docker run --rm nvidia/cuda nvidia-smi
 #### _Other distributions_
 ```sh
 # Install nvidia-docker and nvidia-docker-plugin
-wget -P /tmp https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.1/nvidia-docker_1.0.1_amd64.tar.xz
+wget -P /tmp https://github.com/KamranAlipour/nvidia-docker/releases/download/v1.0.1/nvidia-docker_1.0.1_amd64.tar.xz
 sudo tar --strip-components=1 -C /usr/bin -xvf /tmp/nvidia-docker*.tar.xz && rm /tmp/nvidia-docker*.tar.xz
 
 # Run nvidia-docker-plugin
@@ -55,5 +55,5 @@ Not all the build targets for ppc64le have been implemented. If you would like f
 
 **A signed copy of the [Contributor License Agreement](https://raw.githubusercontent.com/NVIDIA/nvidia-docker/master/CLA) needs to be provided to digits@nvidia.com before any change can be accepted.**
 
-* Please let us know by [filing a new issue](https://github.com/NVIDIA/nvidia-docker/issues/new)
+* Please let us know by [filing a new issue](https://github.com/KamranAlipour/nvidia-docker/issues/new)
 * You can contribute by opening a [pull request](https://help.github.com/articles/using-pull-requests/)

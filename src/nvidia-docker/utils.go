@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/NVIDIA/nvidia-docker/src/docker"
+	"github.com/KamranAlipour/nvidia-docker/src/docker"
 )
 
 const (

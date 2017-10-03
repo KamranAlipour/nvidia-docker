@@ -5,8 +5,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/NVIDIA/nvidia-docker/src/docker"
-	"github.com/NVIDIA/nvidia-docker/src/nvidia"
+	"github.com/KamranAlipour/nvidia-docker/src/docker"
+	"github.com/KamranAlipour/nvidia-docker/src/nvidia"
 )
 
 func GenerateLocalArgs(image string, vols []string) ([]string, error) {
